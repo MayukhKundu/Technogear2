@@ -17,8 +17,8 @@ exports.serverid = 'pokecommunity';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'PokeCommBot';
-exports.pass = 'filler';
+exports.nick = 'Jls-Bot';
+exports.pass = 'qwerty987';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
@@ -27,13 +27,13 @@ exports.rooms = ['lobby'];
 // Any private rooms that should be joined.
 // Private rooms will be moderated differently (since /warn doesn't work in them).
 // The bot will also avoid leaking the private rooms through .seen
-exports.privaterooms = ['staff'];
+exports.privaterooms = [''];
 
 // The character text should start with to be seen as a command.
 // Note that using / and ! might be 'dangerous' since these are used in
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
-exports.commandcharacter = '.';
+exports.commandcharacter = '+';
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
@@ -59,10 +59,10 @@ exports.debuglevel = 3;
 
 // Users who can use all commands regardless of their rank. Be very cautious
 // with this, especially on servers other than main.
-exports.excepts = ['wolf'];
+exports.excepts = ['anrindeoavis'];
 
 // Whitelisted users are those who the bot will not enforce moderation for.
-exports.whitelist = ['PokeCommBot'];
+exports.whitelist = ['anrindeoavis'];
 
 // Users in this list can use the regex autoban commands. Only add users who know how to write regular expressions and have your complete trust not to abuse the commands.
 exports.regexautobanwhitelist = [];
