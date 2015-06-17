@@ -590,6 +590,7 @@ exports.grouplist = [
 		inherit: '&',
 		jurisdiction: 'u',
 		roomleader: true,
+		privateroom: true,
 		roomonly: true
 	},
 	{
