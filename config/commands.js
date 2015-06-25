@@ -187,7 +187,6 @@
  */
 
 var commands = exports.commands = {
-  exports.ip: ' 127.5.233.129'
 	ip: 'whois',
 	rooms: 'whois',
 	alt: 'whois',
